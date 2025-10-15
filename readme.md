@@ -38,9 +38,13 @@ Workflow summary:
 `pip install -r ./requirements.txt`
 ### 4. run dbt models
 `dbt run`
-### 4. copy dbt project to airflow dags
+### 5. install astro
+`brew install astro`
+### 6. copy dbt project to airflow dags
 `cd scripts`
 `./sync_airflow.sh`
+
+airflow will run in `http://localhost:8080/`
 
 
 ### deactivate venv in needed
